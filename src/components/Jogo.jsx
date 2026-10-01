@@ -37,7 +37,7 @@ function Jogo() {
   '🩸', ' footprint ', '🗣️', '💭', '🤝', '🔒', '👀', '⏳', '🎯', '💫'
 ];
     function sortear(){
-        let i = Math.floor(Math.random()*10)
+        let i = Math.floor(Math.random()*10) 
         setEmoji(emojis[i])
     }
   return (
